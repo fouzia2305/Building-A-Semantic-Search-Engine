@@ -19,6 +19,7 @@ Document Chunker: Dividing large documents into smaller, manageable chunks to mi
 Storing Embeddings in ChromaDB: Efficiently storing embeddings in a database for retrieval.
 
 Part 1: Ingesting Documents
+
 Read the provided data, which is in a database file format.
 Decode the files inside the database and consider sampling 30% of the data if compute resources are limited.
 Apply appropriate cleaning steps on subtitle documents.
@@ -26,10 +27,12 @@ Experiment with various methods to generate text vectors of subtitle documents, 
 Implement a Document Chunker to handle large documents effectively and store embeddings in ChromaDB.
 
 Part 2: Retrieving Documents
+
 Take the user's search query and preprocess it if necessary.
 Create a query embedding.
 Calculate cosine similarity scores between embeddings of documents and the user search query embedding.
 Use cosine similarity scores to return the most relevant candidate documents based on the user’s search query.
 
 Conclusion:
+
 This project aims to enhance the search relevance for video subtitles by implementing advanced search engine algorithms and leveraging NLP techniques. By improving the accuracy and relevance of search results, the accessibility of video content can be significantly enhanced, benefiting users seeking specific information within video subtitles.
